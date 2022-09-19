@@ -60,8 +60,6 @@ namespace Tanks
 
             PlayerPrefs.SetString("PlayerName", playerNameInput.text);
 
-            // TODO: Update photon local player nickname
-
         }
 
         private void SetSound(string id, bool newValue, Button disabledButton, Button enabledButton)
