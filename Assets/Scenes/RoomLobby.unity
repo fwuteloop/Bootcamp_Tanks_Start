@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -730,6 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startButton: {fileID: 190302786}
   closeButton: {fileID: 2054641847}
+  username: {fileID: 4594004504027937936}
   playerLobbyEntryPrefab: {fileID: 7023171126395406505, guid: 0037b55fc23cbbc45ae3d81f1219d523,
     type: 3}
   entriesHolder: {fileID: 427313915}
@@ -1606,3 +1607,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0037b55fc23cbbc45ae3d81f1219d523, type: 3}
+--- !u!114 &4594004504027937936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1013931495874101099, guid: 0037b55fc23cbbc45ae3d81f1219d523,
+    type: 3}
+  m_PrefabInstance: {fileID: 4594004504027937935}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

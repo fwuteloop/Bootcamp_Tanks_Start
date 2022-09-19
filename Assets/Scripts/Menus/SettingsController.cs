@@ -1,3 +1,4 @@
+using Photon.Realtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -22,6 +23,8 @@ namespace Tanks
 
         [SerializeField] private Button enabledSFXButton;
         [SerializeField] private Button disabledSFXButton;
+
+        private Player player;
 
         public void Setup()
         {
@@ -58,6 +61,7 @@ namespace Tanks
             PlayerPrefs.SetString("PlayerName", playerNameInput.text);
 
             // TODO: Update photon local player nickname
+
         }
 
         private void SetSound(string id, bool newValue, Button disabledButton, Button enabledButton)
