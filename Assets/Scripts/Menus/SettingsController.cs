@@ -58,6 +58,7 @@ namespace Tanks
 
             gameObject.SetActive(false);
 
+           
             PlayerPrefs.SetString("PlayerName", playerNameInput.text);
 
         }
